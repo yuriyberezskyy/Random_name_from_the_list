@@ -5,6 +5,6 @@ names = names_string.split(", ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-random_name = names[random.randint(0,len(names)-1)]
-
+# random_name = names[random.randint(0,len(names)-1)]
+random_name = random.choice(names)
 print(f"{random_name} is going to pay for the bill")
